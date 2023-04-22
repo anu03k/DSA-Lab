@@ -33,7 +33,7 @@ void addToTail (int data);
 void remove (int data);
  void search (int data);
 
-int retrive (int index , Node* HEAD);
+int retrive (int index );
  void traverse();
  void add (int data, Node* before); //since before
 

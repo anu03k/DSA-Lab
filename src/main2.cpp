@@ -44,4 +44,7 @@ int main()
     cout << "Linked List after add to tail : ";
     mylist.traverse();
     cout << endl;
+   int retrived = mylist.retrive(3);//retirve 3rd element
+   cout<<"data at index 3 is :"<<retrived;
+
 }
